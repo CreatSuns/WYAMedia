@@ -1,0 +1,22 @@
+{
+  "name": "WYAMedia",
+  "version": "0.1.0",
+  "summary": "A short description of WYAMedia.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1228506851@qq.com/WYAMedia",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1228506851@qq.com": "1228506851@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1228506851@qq.com/WYAMedia.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WYAMedia/Classes/**/*"
+}

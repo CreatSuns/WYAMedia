@@ -1,0 +1,6 @@
+framework module Pods_WYAMedia_Example {
+  umbrella header "Pods-WYAMedia_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

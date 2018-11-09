@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WYAMedia_Example' do
+  pod 'WYAMedia', :path => '../'
+
+  target 'WYAMedia_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

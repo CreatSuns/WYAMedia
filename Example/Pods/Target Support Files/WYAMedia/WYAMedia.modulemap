@@ -1,0 +1,6 @@
+framework module WYAMedia {
+  umbrella header "WYAMedia-umbrella.h"
+
+  export *
+  module * { export * }
+}

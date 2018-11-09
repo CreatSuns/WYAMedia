@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WYAMedia (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WYAMedia (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WYAMedia:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WYAMedia: c7df5da07ef2b59c59e60075a35aa54639bd1a1a
+
+PODFILE CHECKSUM: 8e61813c0857235ac6b4de4098f6d1d483b4a8bc
+
+COCOAPODS: 1.5.3
