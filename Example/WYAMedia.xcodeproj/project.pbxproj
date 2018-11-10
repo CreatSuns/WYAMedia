@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15EE451F65155EBA988C83DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		15EE451F65155EBA988C83DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WYAMedia_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYAMedia_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		8C0694B33632CEAD5D554EB6 /* Pods-WYAMedia_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYAMedia_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYAMedia_Tests/Pods-WYAMedia_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC0D4D4772F579C34FF4C952 /* Pods-WYAMedia_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYAMedia_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYAMedia_Example/Pods-WYAMedia_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B6E9626A12092CA08571F59A /* Pods_WYAMedia_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYAMedia_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCB1438114806F26E6CDA5A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CCB1438114806F26E6CDA5A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E646451A6EC1A0AAB318D557 /* Pods-WYAMedia_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYAMedia_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYAMedia_Example/Pods-WYAMedia_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E9C413767AFBF0858FFCFCC5 /* Pods_WYAMedia_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYAMedia_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED0BB6C17858A53BDF116B00 /* WYAMedia.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WYAMedia.podspec; path = ../WYAMedia.podspec; sourceTree = "<group>"; };
+		ED0BB6C17858A53BDF116B00 /* WYAMedia.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYAMedia.podspec; path = ../WYAMedia.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F7878C6968CA0F126EE7CD18 /* Pods-WYAMedia_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYAMedia_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYAMedia_Tests/Pods-WYAMedia_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -246,8 +246,11 @@
 			attributes = {
 				CLASSPREFIX = WYA;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "1228506851@qq.com";
+				ORGANIZATIONNAME = WYATeam;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = J5265ZP7QT;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -504,9 +507,11 @@
 			baseConfigurationReference = AC0D4D4772F579C34FF4C952 /* Pods-WYAMedia_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5265ZP7QT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WYAMedia/WYAMedia-Prefix.pch";
 				INFOPLIST_FILE = "WYAMedia/WYAMedia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,9 +524,11 @@
 			baseConfigurationReference = E646451A6EC1A0AAB318D557 /* Pods-WYAMedia_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5265ZP7QT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WYAMedia/WYAMedia-Prefix.pch";
 				INFOPLIST_FILE = "WYAMedia/WYAMedia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

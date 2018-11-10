@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A2F62FFE6CA272973F479D7D5B20E0 /* WYACameraTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF996732B6F6D41C7140E28BB75B18C /* WYACameraTool.m */; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		06ED0466AE4745C495C24D1D294D7366 /* WYACameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CF8B4008CE5FFE328CEEBBEBFCEB07 /* WYACameraViewController.m */; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		0AB35E8DE82877DCBBEFC001B7DDAAA1 /* WYACameraRecordProcessView.h in Headers */ = {isa = PBXBuildFile; fileRef = E759DAB91A99B7B63890E7F60DC9D077 /* WYACameraRecordProcessView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DED052F90EDC848DCF5FCEEAEC57D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,28 +19,33 @@
 		35C980E9E45A5B2C9DFF1DB6E773D3A0 /* Pods-WYAMedia_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4E7C3B26F59CDEAD85DBD56060E13F /* Pods-WYAMedia_Example-dummy.m */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		45E67649480C293A3BE5D2DB6906741F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC7E9C3D4E19EDC96F2F4376096B33 /* ReplaceMe.m */; };
+		4C8612B3657AE1FDA905BDDDA40200F1 /* WYAMedia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA85E07005A2F3827B58388E04DFF171 /* WYAMedia-dummy.m */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
 		5EA8A6AE0B70FF83BC685859D9063116 /* Pods-WYAMedia_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5CBA852B0E30E5ED1FBA4153588137 /* Pods-WYAMedia_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		705C28B5674FC34F1BEEE1578A653285 /* WYAMedia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 705DF388CB67B6EB8456D20083F9CF5E /* WYAMedia.bundle */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		78CA8AC00C352E52A55AA3C853F3E3B1 /* Pods-WYAMedia_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A05C1101EEBEDA208793B43CF35FA489 /* Pods-WYAMedia_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
+		889E65581533CE434DFF453D521A2B1D /* WYACameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D53E2DA1A25BBCCAA532BFB79AAE9A8 /* WYACameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2CFCFE54E8A17DECCE66B6812E604B1 /* WYAMedia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 193735922B36DDA9065F85E94F20D764 /* WYAMedia-dummy.m */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		A863BE43A80382C6CB89B21650E24286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		A8D9BB0F5CA37E30E77D13607E423F59 /* WYAMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1ED0FB2D3BEE4472C6D1F6F488581C /* WYAMedia.xcassets */; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
+		B2A2F54B973A582F4D09F998D4671E7D /* ImageMakeConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = DD81F24FF628FFB0BDABB0CBEAC07192 /* ImageMakeConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B86E8F71FA29563028AB43287A974049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D5891C4E296441D0AA2B6617E7250693 /* WYAMedia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D75CD9629A9568813439A605530344 /* WYAMedia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		ED346630398BD188AA26973CA3248738 /* WYAMedia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFFE96C7B5BDF9523CA8317BAF34B2E /* WYAMedia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE0ED8C938B187640426DB9DF131CBDA /* WYACameraTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE8E9DDBBBE36F5A23B2BAF8F07756A /* WYACameraTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F700B3D90F7F5A7D0B319C1C548A2623 /* WYACameraRecordProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEBDBC29E617419EA35B060DA991260 /* WYACameraRecordProcessView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 643460C1D9610B0A3875D987B27CB80C;
 			remoteInfo = "Pods-WYAMedia_Example";
+		};
+		4C80E6815FAFEF1FE53826DC53D4415E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E65EC9446B8F2A86F472147E185590B;
+			remoteInfo = "WYAMedia-WYAMedia";
 		};
 		6A2C261EE32C3FBBCD65E7496288B20A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -67,63 +82,72 @@
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		0CE8E9DDBBBE36F5A23B2BAF8F07756A /* WYACameraTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYACameraTool.h; path = WYAMedia/Classes/WYACameraTool.h; sourceTree = "<group>"; };
 		12CE9E5751807FD5526D218B11FB74A5 /* Pods-WYAMedia_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAMedia_Tests-resources.sh"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		193735922B36DDA9065F85E94F20D764 /* WYAMedia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYAMedia-dummy.m"; sourceTree = "<group>"; };
-		19E0006C860266C97BE150A9E97AF3B6 /* WYAMedia.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYAMedia.xcconfig; sourceTree = "<group>"; };
+		1DEBDBC29E617419EA35B060DA991260 /* WYACameraRecordProcessView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYACameraRecordProcessView.m; path = WYAMedia/Classes/WYACameraRecordProcessView.m; sourceTree = "<group>"; };
 		1ED6AA86216D3E85A253E829D35E6F84 /* Pods-WYAMedia_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAMedia_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		22C69D89FB13E243AFC91C7BABA4B5E1 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23ADA9A67EEBDE941C055E901BAA00D8 /* WYAMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYAMedia.framework; path = WYAMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2467F42C420B3AF69791D54EAD1C6CC7 /* Pods-WYAMedia_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAMedia_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		2F2A90D3C822AFB1A7FB4C7E4A3447EC /* WYAMedia-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAMedia-prefix.pch"; sourceTree = "<group>"; };
+		3596526C4DE79AFC1DD8BC2D187BEA92 /* WYAMedia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYAMedia.modulemap; sourceTree = "<group>"; };
+		38891391F6A11E6EAB735A13729E2A8D /* ResourceBundle-WYAMedia-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WYAMedia-Info.plist"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3CAC7E9C3D4E19EDC96F2F4376096B33 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WYAMedia/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		440A5EE51B33A7E0A909E2FAB90F1B3C /* Pods-WYAMedia_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAMedia_Tests-dummy.m"; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		47D75CD9629A9568813439A605530344 /* WYAMedia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAMedia-umbrella.h"; sourceTree = "<group>"; };
 		4B08E0E72085E13E243E79057A092B16 /* Pods-WYAMedia_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAMedia_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		5B65CE09F7AD3870344DAB6F41C66705 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5C45501868A095D18DE3469D611FF533 /* WYAMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYAMedia.framework; path = WYAMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF996732B6F6D41C7140E28BB75B18C /* WYACameraTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYACameraTool.m; path = WYAMedia/Classes/WYACameraTool.m; sourceTree = "<group>"; };
+		631CF97BFF10A9317A81EEED07E41C16 /* Pods_WYAMedia_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAMedia_Example.framework; path = "Pods-WYAMedia_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68217B08D8DBBE76AF1D3F232271FE5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DB6CDF9BC67B524F56B1E5E1BF452A1 /* Pods-WYAMedia_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAMedia_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		749EBF0AFAC02334AFE0A7845FA127F2 /* Pods_WYAMedia_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAMedia_Tests.framework; path = "Pods-WYAMedia_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		705DF388CB67B6EB8456D20083F9CF5E /* WYAMedia.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WYAMedia.bundle; path = "WYAMedia-WYAMedia.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7276416D0A58AEA9F6BF9B56B3F1F6EF /* WYAMedia.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WYAMedia.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		75CF8B4008CE5FFE328CEEBBEBFCEB07 /* WYACameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYACameraViewController.m; path = WYAMedia/Classes/WYACameraViewController.m; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		7BE50DAD627F90DB4378B566005835D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		8AB0B43AA20624AC999DFCFD94138DD2 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		978156AC61C3CA007E6FF50E5EECAA48 /* Pods-WYAMedia_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAMedia_Example.modulemap"; sourceTree = "<group>"; };
 		995209070343847BD5A41203EAA3A566 /* Pods-WYAMedia_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAMedia_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9A86C23B8EFE4AB3B519484B59D7D99F /* WYAMedia.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WYAMedia.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D53E2DA1A25BBCCAA532BFB79AAE9A8 /* WYACameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYACameraViewController.h; path = WYAMedia/Classes/WYACameraViewController.h; sourceTree = "<group>"; };
+		9E1ED0FB2D3BEE4472C6D1F6F488581C /* WYAMedia.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = WYAMedia.xcassets; path = WYAMedia/Assets/WYAMedia.xcassets; sourceTree = "<group>"; };
 		A05C1101EEBEDA208793B43CF35FA489 /* Pods-WYAMedia_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAMedia_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A7D55AC07CD41AAE54D6D545FFA084C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A849A189E3D7F445AC732CA3C5B3AAC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9275101AA1054C769CA075A7E45CED2 /* Pods-WYAMedia_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAMedia_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AF2319EB904C2BC5821FF85943126F3D /* Pods-WYAMedia_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAMedia_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B74A157B9DCB2D29608BE33AB24CB975 /* Pods-WYAMedia_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAMedia_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		BBEFAC6F6AC7D0E0917F37729DB058A7 /* Pods_WYAMedia_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAMedia_Tests.framework; path = "Pods-WYAMedia_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34463459DC72EF8672FA8116DAFFD25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C98F813AD85898010126BD90BA78042B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CE0AAAED6C96A449B7FD640B1CD72A6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D00FC144403F329DBBA0DBB35DB79603 /* WYAMedia-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAMedia-prefix.pch"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		DA834CA367E00D7E521BABA82B6ABD06 /* WYAMedia.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYAMedia.xcconfig; sourceTree = "<group>"; };
 		DD4E7C3B26F59CDEAD85DBD56060E13F /* Pods-WYAMedia_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAMedia_Example-dummy.m"; sourceTree = "<group>"; };
-		E292AC7F5A853C723927CBD8D22D1C4F /* Pods_WYAMedia_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAMedia_Example.framework; path = "Pods-WYAMedia_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD81F24FF628FFB0BDABB0CBEAC07192 /* ImageMakeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageMakeConfig.h; path = WYAMedia/Classes/ImageMakeConfig.h; sourceTree = "<group>"; };
 		E345C0273EFB4FEC272ED2B0D9BCB007 /* Pods-WYAMedia_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAMedia_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E759DAB91A99B7B63890E7F60DC9D077 /* WYACameraRecordProcessView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYACameraRecordProcessView.h; path = WYAMedia/Classes/WYACameraRecordProcessView.h; sourceTree = "<group>"; };
 		EC67E31AB044E3A3B86DD03BF612C07F /* Pods-WYAMedia_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAMedia_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ECE82625B4177E8B1149E3F89F89CB13 /* Pods-WYAMedia_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAMedia_Tests.modulemap"; sourceTree = "<group>"; };
-		EEFFE96C7B5BDF9523CA8317BAF34B2E /* WYAMedia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAMedia-umbrella.h"; sourceTree = "<group>"; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		FA5CBA852B0E30E5ED1FBA4153588137 /* Pods-WYAMedia_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAMedia_Example-umbrella.h"; sourceTree = "<group>"; };
-		FE841376CD691395F32673A085753226 /* WYAMedia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYAMedia.modulemap; sourceTree = "<group>"; };
+		FA85E07005A2F3827B58388E04DFF171 /* WYAMedia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYAMedia-dummy.m"; sourceTree = "<group>"; };
 		FF23EF68DBC817EE2863F075F1CA80C4 /* Pods-WYAMedia_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAMedia_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +168,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86E8F71FA29563028AB43287A974049 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F6E0D8DF541D8C002C23629B2BC072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,25 +216,19 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		255B1E4C34017B37E837D817B7AA8772 /* WYAMedia */ = {
+		2DC33B9A1570B1E439D569DC14487E21 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3CAC7E9C3D4E19EDC96F2F4376096B33 /* ReplaceMe.m */,
-				2D41D5A131518A73A1ADADAEFF9CAD9A /* Pod */,
-				565D967A0BD509ADF7546EDC9456778B /* Support Files */,
+				68217B08D8DBBE76AF1D3F232271FE5A /* Info.plist */,
+				38891391F6A11E6EAB735A13729E2A8D /* ResourceBundle-WYAMedia-Info.plist */,
+				3596526C4DE79AFC1DD8BC2D187BEA92 /* WYAMedia.modulemap */,
+				DA834CA367E00D7E521BABA82B6ABD06 /* WYAMedia.xcconfig */,
+				FA85E07005A2F3827B58388E04DFF171 /* WYAMedia-dummy.m */,
+				2F2A90D3C822AFB1A7FB4C7E4A3447EC /* WYAMedia-prefix.pch */,
+				47D75CD9629A9568813439A605530344 /* WYAMedia-umbrella.h */,
 			);
-			name = WYAMedia;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2D41D5A131518A73A1ADADAEFF9CAD9A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C98F813AD85898010126BD90BA78042B /* LICENSE */,
-				7BE50DAD627F90DB4378B566005835D6 /* README.md */,
-				9A86C23B8EFE4AB3B519484B59D7D99F /* WYAMedia.podspec */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYAMedia";
 			sourceTree = "<group>";
 		};
 		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
@@ -220,18 +245,12 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		565D967A0BD509ADF7546EDC9456778B /* Support Files */ = {
+		605E4DF51A11FF540E6B28263A619432 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A849A189E3D7F445AC732CA3C5B3AAC1 /* Info.plist */,
-				FE841376CD691395F32673A085753226 /* WYAMedia.modulemap */,
-				19E0006C860266C97BE150A9E97AF3B6 /* WYAMedia.xcconfig */,
-				193735922B36DDA9065F85E94F20D764 /* WYAMedia-dummy.m */,
-				D00FC144403F329DBBA0DBB35DB79603 /* WYAMedia-prefix.pch */,
-				EEFFE96C7B5BDF9523CA8317BAF34B2E /* WYAMedia-umbrella.h */,
+				9E1ED0FB2D3BEE4472C6D1F6F488581C /* WYAMedia.xcassets */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WYAMedia";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		75285B2405AAFE12D43161FA32185847 /* Targets Support Files */ = {
@@ -247,12 +266,22 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DB369C8A4EBF80CAA8B48D6189BB74AF /* Development Pods */,
+				E36FDFDF893033AD7343C3592E6D919E /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				E4F01196F9B93C0CCC1CFFD4CA82ED5E /* Products */,
+				E1A42070C61300E3CD76E99B0186BDAB /* Products */,
 				75285B2405AAFE12D43161FA32185847 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8A6F01E04DB499F4E72078FA965A36CF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C34463459DC72EF8672FA8116DAFFD25 /* LICENSE */,
+				5B65CE09F7AD3870344DAB6F41C66705 /* README.md */,
+				7276416D0A58AEA9F6BF9B56B3F1F6EF /* WYAMedia.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
@@ -292,6 +321,24 @@
 			path = "Target Support Files/Pods-WYAMedia_Example";
 			sourceTree = "<group>";
 		};
+		B520B30D34A518FD6E5E94CAC0BA3288 /* WYAMedia */ = {
+			isa = PBXGroup;
+			children = (
+				DD81F24FF628FFB0BDABB0CBEAC07192 /* ImageMakeConfig.h */,
+				E759DAB91A99B7B63890E7F60DC9D077 /* WYACameraRecordProcessView.h */,
+				1DEBDBC29E617419EA35B060DA991260 /* WYACameraRecordProcessView.m */,
+				0CE8E9DDBBBE36F5A23B2BAF8F07756A /* WYACameraTool.h */,
+				5FF996732B6F6D41C7140E28BB75B18C /* WYACameraTool.m */,
+				9D53E2DA1A25BBCCAA532BFB79AAE9A8 /* WYACameraViewController.h */,
+				75CF8B4008CE5FFE328CEEBBEBFCEB07 /* WYACameraViewController.m */,
+				8A6F01E04DB499F4E72078FA965A36CF /* Pod */,
+				605E4DF51A11FF540E6B28263A619432 /* Resources */,
+				2DC33B9A1570B1E439D569DC14487E21 /* Support Files */,
+			);
+			name = WYAMedia;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		D389EA76591D0A07AFDC5136293BC051 /* Pods-WYAMedia_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,23 +357,24 @@
 			path = "Target Support Files/Pods-WYAMedia_Tests";
 			sourceTree = "<group>";
 		};
-		DB369C8A4EBF80CAA8B48D6189BB74AF /* Development Pods */ = {
+		E1A42070C61300E3CD76E99B0186BDAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				255B1E4C34017B37E837D817B7AA8772 /* WYAMedia */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E4F01196F9B93C0CCC1CFFD4CA82ED5E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				22C69D89FB13E243AFC91C7BABA4B5E1 /* FBSnapshotTestCase.framework */,
-				E292AC7F5A853C723927CBD8D22D1C4F /* Pods_WYAMedia_Example.framework */,
-				749EBF0AFAC02334AFE0A7845FA127F2 /* Pods_WYAMedia_Tests.framework */,
-				23ADA9A67EEBDE941C055E901BAA00D8 /* WYAMedia.framework */,
+				8AB0B43AA20624AC999DFCFD94138DD2 /* FBSnapshotTestCase.framework */,
+				631CF97BFF10A9317A81EEED07E41C16 /* Pods_WYAMedia_Example.framework */,
+				BBEFAC6F6AC7D0E0917F37729DB058A7 /* Pods_WYAMedia_Tests.framework */,
+				705DF388CB67B6EB8456D20083F9CF5E /* WYAMedia.bundle */,
+				5C45501868A095D18DE3469D611FF533 /* WYAMedia.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E36FDFDF893033AD7343C3592E6D919E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B520B30D34A518FD6E5E94CAC0BA3288 /* WYAMedia */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -361,11 +409,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6FDB0ADCE3825C92CC02C2D6CD2D15DF /* Headers */ = {
+		00B10C52BEFEA4002980A738B0103773 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED346630398BD188AA26973CA3248738 /* WYAMedia-umbrella.h in Headers */,
+				B2A2F54B973A582F4D09F998D4671E7D /* ImageMakeConfig.h in Headers */,
+				0AB35E8DE82877DCBBEFC001B7DDAAA1 /* WYACameraRecordProcessView.h in Headers */,
+				DE0ED8C938B187640426DB9DF131CBDA /* WYACameraTool.h in Headers */,
+				889E65581533CE434DFF453D521A2B1D /* WYACameraViewController.h in Headers */,
+				D5891C4E296441D0AA2B6617E7250693 /* WYAMedia-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +455,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2E65EC9446B8F2A86F472147E185590B /* WYAMedia-WYAMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D67FB9C37B60D8336DA99AB413FC1DE /* Build configuration list for PBXNativeTarget "WYAMedia-WYAMedia" */;
+			buildPhases = (
+				4028075DC2F4FF8DEFF68E532E3C7022 /* Sources */,
+				A5F6E0D8DF541D8C002C23629B2BC072 /* Frameworks */,
+				81FD66C5E4CAB4A3C7EE8AA25088C609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WYAMedia-WYAMedia";
+			productName = "WYAMedia-WYAMedia";
+			productReference = 705DF388CB67B6EB8456D20083F9CF5E /* WYAMedia.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
@@ -417,24 +486,26 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 22C69D89FB13E243AFC91C7BABA4B5E1 /* FBSnapshotTestCase.framework */;
+			productReference = 8AB0B43AA20624AC999DFCFD94138DD2 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3512DBF94A3DC72BBCEC093F4217A0DF /* WYAMedia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FDBB81AB30E5FADA0BA1A0FAC064A1B /* Build configuration list for PBXNativeTarget "WYAMedia" */;
 			buildPhases = (
-				13F743420984681704D1C599D59364C2 /* Sources */,
+				876CAA515CFEFCF8D5D8EA9B2AC1F96E /* Sources */,
 				5AEB7B9B4322EF870FB88594941976D8 /* Frameworks */,
-				6FDB0ADCE3825C92CC02C2D6CD2D15DF /* Headers */,
+				2414E8BD27D53F755885233E8BBD9281 /* Resources */,
+				00B10C52BEFEA4002980A738B0103773 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				20361DFD5A27EB261333B98B7A7A4BB1 /* PBXTargetDependency */,
 			);
 			name = WYAMedia;
 			productName = WYAMedia;
-			productReference = 23ADA9A67EEBDE941C055E901BAA00D8 /* WYAMedia.framework */;
+			productReference = 5C45501868A095D18DE3469D611FF533 /* WYAMedia.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		636E6397967488055E27C8751A38A5CA /* Pods-WYAMedia_Tests */ = {
@@ -453,7 +524,7 @@
 			);
 			name = "Pods-WYAMedia_Tests";
 			productName = "Pods-WYAMedia_Tests";
-			productReference = 749EBF0AFAC02334AFE0A7845FA127F2 /* Pods_WYAMedia_Tests.framework */;
+			productReference = BBEFAC6F6AC7D0E0917F37729DB058A7 /* Pods_WYAMedia_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		643460C1D9610B0A3875D987B27CB80C /* Pods-WYAMedia_Example */ = {
@@ -471,7 +542,7 @@
 			);
 			name = "Pods-WYAMedia_Example";
 			productName = "Pods-WYAMedia_Example";
-			productReference = E292AC7F5A853C723927CBD8D22D1C4F /* Pods_WYAMedia_Example.framework */;
+			productReference = 631CF97BFF10A9317A81EEED07E41C16 /* Pods_WYAMedia_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -491,7 +562,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E4F01196F9B93C0CCC1CFFD4CA82ED5E /* Products */;
+			productRefGroup = E1A42070C61300E3CD76E99B0186BDAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -499,9 +570,29 @@
 				643460C1D9610B0A3875D987B27CB80C /* Pods-WYAMedia_Example */,
 				636E6397967488055E27C8751A38A5CA /* Pods-WYAMedia_Tests */,
 				3512DBF94A3DC72BBCEC093F4217A0DF /* WYAMedia */,
+				2E65EC9446B8F2A86F472147E185590B /* WYAMedia-WYAMedia */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2414E8BD27D53F755885233E8BBD9281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705C28B5674FC34F1BEEE1578A653285 /* WYAMedia.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FD66C5E4CAB4A3C7EE8AA25088C609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D9BB0F5CA37E30E77D13607E423F59 /* WYAMedia.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04D69EBB5CD276E3C0999A27FAF7FC50 /* Sources */ = {
@@ -512,12 +603,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13F743420984681704D1C599D59364C2 /* Sources */ = {
+		4028075DC2F4FF8DEFF68E532E3C7022 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45E67649480C293A3BE5D2DB6906741F /* ReplaceMe.m in Sources */,
-				A2CFCFE54E8A17DECCE66B6812E604B1 /* WYAMedia-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876CAA515CFEFCF8D5D8EA9B2AC1F96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F700B3D90F7F5A7D0B319C1C548A2623 /* WYACameraRecordProcessView.m in Sources */,
+				04A2F62FFE6CA272973F479D7D5B20E0 /* WYACameraTool.m in Sources */,
+				06ED0466AE4745C495C24D1D294D7366 /* WYACameraViewController.m in Sources */,
+				4C8612B3657AE1FDA905BDDDA40200F1 /* WYAMedia-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +648,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		20361DFD5A27EB261333B98B7A7A4BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WYAMedia-WYAMedia";
+			target = 2E65EC9446B8F2A86F472147E185590B /* WYAMedia-WYAMedia */;
+			targetProxy = 4C80E6815FAFEF1FE53826DC53D4415E /* PBXContainerItemProxy */;
+		};
 		7296E7E9D3EC5BC4167BBCE60E1E867C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WYAMedia_Example";
@@ -569,39 +675,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		393F8D1E86975559A051EC78F55B31EB /* Debug */ = {
+		019087AE5402CCC2CC04664C5AA217F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19E0006C860266C97BE150A9E97AF3B6 /* WYAMedia.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WYAMedia/WYAMedia-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WYAMedia/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WYAMedia/WYAMedia.modulemap";
-				PRODUCT_MODULE_NAME = WYAMedia;
-				PRODUCT_NAME = WYAMedia;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5D2B1CDE68449D850A3B082C4D30C4F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E345C0273EFB4FEC272ED2B0D9BCB007 /* Pods-WYAMedia_Tests.debug.xcconfig */;
+			baseConfigurationReference = EC67E31AB044E3A3B86DD03BF612C07F /* Pods-WYAMedia_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -615,7 +691,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-WYAMedia_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WYAMedia_Tests/Pods-WYAMedia_Tests.modulemap";
@@ -626,41 +702,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		66F09424CE2CA9B7609163FF419E262A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 995209070343847BD5A41203EAA3A566 /* Pods-WYAMedia_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WYAMedia_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WYAMedia_Example/Pods-WYAMedia_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -668,7 +710,7 @@
 			};
 			name = Release;
 		};
-		80C44E829DAE67A5831E902269DFC1AE /* Debug */ = {
+		112EC2A1D543F35E530A73BFB7E42850 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B08E0E72085E13E243E79057A092B16 /* Pods-WYAMedia_Example.debug.xcconfig */;
 			buildSettings = {
@@ -684,7 +726,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-WYAMedia_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WYAMedia_Example/Pods-WYAMedia_Example.modulemap";
@@ -701,7 +743,7 @@
 			};
 			name = Debug;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -754,13 +796,77 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		22507E7226A82ED8A66F94EB75033731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995209070343847BD5A41203EAA3A566 /* Pods-WYAMedia_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYAMedia_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYAMedia_Example/Pods-WYAMedia_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		393F8D1E86975559A051EC78F55B31EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA834CA367E00D7E521BABA82B6ABD06 /* WYAMedia.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYAMedia/WYAMedia-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYAMedia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYAMedia/WYAMedia.modulemap";
+				PRODUCT_MODULE_NAME = WYAMedia;
+				PRODUCT_NAME = WYAMedia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -795,41 +901,6 @@
 			};
 			name = Debug;
 		};
-		A7675153A4BB049C041AF922CEAED958 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC67E31AB044E3A3B86DD03BF612C07F /* Pods-WYAMedia_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WYAMedia_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WYAMedia_Tests/Pods-WYAMedia_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
@@ -862,7 +933,105 @@
 			};
 			name = Release;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		C077D600E8E4E57B6027C825DB129537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA834CA367E00D7E521BABA82B6ABD06 /* WYAMedia.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYAMedia";
+				INFOPLIST_FILE = "Target Support Files/WYAMedia/ResourceBundle-WYAMedia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WYAMedia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CB48458183EC7BC2EBD01C8ACF93E913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E345C0273EFB4FEC272ED2B0D9BCB007 /* Pods-WYAMedia_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYAMedia_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYAMedia_Tests/Pods-WYAMedia_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2DB0B1B2FD70747523D17EE53F59CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA834CA367E00D7E521BABA82B6ABD06 /* WYAMedia.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYAMedia/WYAMedia-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYAMedia/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYAMedia/WYAMedia.modulemap";
+				PRODUCT_MODULE_NAME = WYAMedia;
+				PRODUCT_NAME = WYAMedia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD4DE2E293CD85E38766B02F233366EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA834CA367E00D7E521BABA82B6ABD06 /* WYAMedia.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYAMedia";
+				INFOPLIST_FILE = "Target Support Files/WYAMedia/ResourceBundle-WYAMedia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WYAMedia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -912,42 +1081,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D2DB0B1B2FD70747523D17EE53F59CE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19E0006C860266C97BE150A9E97AF3B6 /* WYAMedia.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WYAMedia/WYAMedia-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WYAMedia/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WYAMedia/WYAMedia.modulemap";
-				PRODUCT_MODULE_NAME = WYAMedia;
-				PRODUCT_NAME = WYAMedia;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -957,8 +1095,8 @@
 		0A4C7D4DB3B2DEF547E7A12FD9DF5898 /* Build configuration list for PBXNativeTarget "Pods-WYAMedia_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80C44E829DAE67A5831E902269DFC1AE /* Debug */,
-				66F09424CE2CA9B7609163FF419E262A /* Release */,
+				112EC2A1D543F35E530A73BFB7E42850 /* Debug */,
+				22507E7226A82ED8A66F94EB75033731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -966,8 +1104,17 @@
 		1090D7A3220A06EE557EBA132C6FD080 /* Build configuration list for PBXNativeTarget "Pods-WYAMedia_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D2B1CDE68449D850A3B082C4D30C4F1 /* Debug */,
-				A7675153A4BB049C041AF922CEAED958 /* Release */,
+				CB48458183EC7BC2EBD01C8ACF93E913 /* Debug */,
+				019087AE5402CCC2CC04664C5AA217F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D67FB9C37B60D8336DA99AB413FC1DE /* Build configuration list for PBXNativeTarget "WYAMedia-WYAMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C077D600E8E4E57B6027C825DB129537 /* Debug */,
+				DD4DE2E293CD85E38766B02F233366EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -975,8 +1122,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
